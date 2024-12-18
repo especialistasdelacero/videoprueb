@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+background: aqua;
+padding: 50px;
+text-align: center;
+}
+
+nav{
+    background: black;
+    display: flex;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    
+}
+.row{
+    display: flex;
+}
+aside{
+    flex: 30px;
+    background: chartreuse;
+    padding: 20px;
+}
+section{
+    flex: 70px;
+    display: flex;
+    background: blue;
+    padding: 20px;
+
+}
